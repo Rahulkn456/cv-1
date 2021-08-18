@@ -1,0 +1,137 @@
+/***************** Tag Selectors *******************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Georama', sans-serif;
+  color: #2D2424;
+}
+h1{
+  font-size: 5.625em;
+  margin-top:0;
+  font-family: 'Sacramento', cursive;
+  color: #753422;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #753422;
+  padding: 10px;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #753422;
+
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+  width:5%;
+  border:dotted #753422 8px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #B05B3B;
+  font-weight:bolder;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+}
+
+a:hover{
+  color: #D79771;
+}
+/***************** Class Selectors *******************/
+.top-container{
+  background-color: #D79771;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  background-color: #FFEBC9;
+  padding:80px 0;
+}
+.bottom-container{
+  background-color: #753422;
+  position: relative;
+  padding: 50px 0 2px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 700px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 680px;
+  bottom: 380px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto ;
+  text-align: left;
+}
+.ava-img{
+  width: 10%;
+}
+.comp-img{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli-img{
+  width: 18%;
+  float: right;
+  margin-left:30px;
+}
+.BUTTON_QAY{
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #753422;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.BUTTON_QAY:hover {
+   background: #D79771;
+   border: solid #D79771 1px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   border-radius: 50px;
+   text-decoration: none;
+}
+
+.Hello{
+  width: 30%;
+  margin: auto;
+}
+.contact-text{
+  width: 30%;
+  margin: 40px auto 50px;
+}
+
+.copyright{
+  color: #ffff;
+  font-size: .75rem;
+  padding: 20px 0;
+}
